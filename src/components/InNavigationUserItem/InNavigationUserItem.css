@@ -1,0 +1,22 @@
+.InNavigationUserItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InNavigationUserItem .InNavigationUserItem-Name {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.InNavigationUserItem .InAvatar .InAvatar-Text {
+  transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.InNavigationUserItem:hover .InAvatar .InAvatar-Text {
+  background-color: #cbdbdb;
+  cursor: pointer;
+  transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}

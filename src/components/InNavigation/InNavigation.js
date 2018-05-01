@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './InNavigation.css';
 import InNavigationItem from '../InNavigationItem/InNavigationItem';
+import InNavigationUserItem from '../InNavigationUserItem/InNavigationUserItem';
 
 class InNavigation extends Component {
   render() {
@@ -10,21 +11,19 @@ class InNavigation extends Component {
         </div>
         <div className="NavRight">
           <InNavigationItem 
-            icon="mi-Megaphone"
             text="Team"
             link="/team" />
           <InNavigationItem 
-            icon="mi-People"
             text="Roster"
             link="/roster" />
           <InNavigationItem 
             icon="mi-ActionCenter"
             text=""
             link="/" />
-          <InNavigationItem 
-            icon="mi-More"
-            text=""
-            link="/" />
+          {this.props.user ? 
+            <InNavigationUserItem 
+              user={this.props.user} /> :
+            ''}
         </div>
       </div>
     );
