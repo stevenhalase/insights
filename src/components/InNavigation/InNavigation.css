@@ -1,0 +1,28 @@
+.InNavigation {
+  width: 100vw;
+  height: 62px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: #2c2c2c;
+}
+
+.InNavigation .NavLeft {
+  flex: 0 0 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.InNavigation .NavRight {
+  flex: 0 0 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+}

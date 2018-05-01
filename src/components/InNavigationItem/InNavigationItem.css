@@ -1,0 +1,9 @@
+.InNavigationItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
