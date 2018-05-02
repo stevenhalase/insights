@@ -1,0 +1,60 @@
+.InGamesListItem {
+  display: flex;
+  padding: 15px 0;
+}
+
+.InGamesListItem:not(:last-child) {
+  border-bottom: 1px solid #dadada;
+}
+
+.InGamesListItem .InGamesListItem-HomeTeam {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+}
+
+.InGamesListItem .InGamesListItem-AwayTeam {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+
+.InGamesListItem .InGamesListItem-HomeTeam .InGamesListItem-HomeTeam-Logo,
+.InGamesListItem .InGamesListItem-AwayTeam .InGamesListItem-AwayTeam-Logo {
+  margin: 0 10px;
+}
+
+.InGamesListItem .InGamesListItem-Meta {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.InGamesListItem .InGamesListItem-Meta .InGamesListItem-Meta-Score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InGamesListItem .InGamesListItem-Meta .InGamesListItem-Meta-Score-Home,
+.InGamesListItem .InGamesListItem-Meta .InGamesListItem-Meta-Score-Seperator,
+.InGamesListItem .InGamesListItem-Meta .InGamesListItem-Meta-Score-Away {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.InGamesListItem .InGamesListItem-Meta .InGamesListItem-Meta-Date {
+  font-size: 12px;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

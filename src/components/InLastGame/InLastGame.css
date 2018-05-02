@@ -1,0 +1,20 @@
+.InLastGame {
+  background-color: #fff;
+  margin: 15px 0;
+  border-radius: 4px;
+  padding: 40px 15px 15px;
+  display: flex;
+  position: relative;
+}
+
+.InLastGame .InLastGame-Header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2c2c2c;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  padding: 5px;
+  text-align: center;
+}
